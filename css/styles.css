@@ -1,0 +1,170 @@
+/* Title Section */
+#title {
+    background-color: #000000;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'Sora', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.1;
+    color: #fff;
+    padding: 3% 15%;
+}
+
+/* Section Headings */
+h2, h3 {
+    font-family: 'Sora', sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+h4 {
+    font-family: 'Sora', sans-serif;
+    font-size: 1.3rem;
+    color: #000000;
+    text-align: center;
+}
+
+/* Text */
+p, .projectspara {
+    color: #000000;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Sora', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #6f6f6f;
+}
+
+.nav-link {
+    color: #fff;
+    font-family: 'Sora', sans-serif;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #707070;
+}
+
+/* Projects Section */
+#projects {
+    padding: 7% 15%;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+.project-box {
+    text-align: center;
+    padding: 5% 5%;
+}
+
+.project-link {
+    color: blue;
+}
+
+.project-link:hover {
+    color: black;
+}
+
+/* Contact Section */
+#CONTACT {
+    background-color: #000000;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+}
+
+.CONTACT-heading {
+    font-family: 'Sora', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+/* Social Icons */
+.icon {
+    color: rgb(255, 255, 255);
+}
+
+.icon:hover {
+    color: gray;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 1020px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+/* About page button styled like navbar links */
+.about-button {
+    background-color: transparent; /* Transparent to match navbar */
+    color: white; /* White text color, like the navbar links */
+    padding: 10px 20px;
+    border: none; /* No outline */
+    font-size: 1rem;
+    font-family: 'Sora', sans-serif; /* Match navbar font */
+    text-transform: uppercase;
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.about-button:hover {
+    color: #707070; /* Slightly darker color on hover to match navbar hover */
+}
+
+.project-image {
+    width: 100%; /* Makes the image responsive and fill its container */
+    max-width: 600px; /* Set a maximum width to prevent it from being too large */
+    margin-top: 15px; /* Add some space above the image */
+    border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+.project-box {
+    text-align: center;
+}
+
+.project-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.project-link-container {
+    margin-top: 15px;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: blue;
+}
+
+.project-link:hover {
+    color: darkblue;
+}
